@@ -51,21 +51,9 @@ ScrollReveal().reveal('.home-contact p, .about-content', {origin: 'rifht'});
 
 /*=============================== typed JS ===================================*/
 const typed = new Typed('.multiple-text',{
-   strings: ['Data Enthusiast', "Machine Learning", "Python Developer"],
+   strings: ['An inqusitive Data Enthusiast', " A Desirous Machine Learner", "Your Next Hire"],
    typeSpeed: 70,
    backSpeed: 70,
    backDelay: 1000,
    loop: true,
 });
-
-
-
-
-
-
-
-
-
-
-
-
