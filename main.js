@@ -51,7 +51,7 @@ ScrollReveal().reveal('.home-contact p, .about-content', {origin: 'rifht'});
 
 /*=============================== typed JS ===================================*/
 const typed = new Typed('.multiple-text',{
-   strings: ['An inqusitive Data Enthusiast', " A Desirous Machine Learner", "Your Next Hire"],
+   strings: ['an inqusitive Data Enthusiast.', " a desirous machine learner.", "your next hire!"],
    typeSpeed: 70,
    backSpeed: 70,
    backDelay: 1000,
