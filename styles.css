@@ -512,3 +512,56 @@ span{
     width: 100%;
   }
 }
+
+/*  */
+/* Add these styles to your styles.css file */
+
+/* General Section Styling: My Tack Stack */ 
+
+.tech-stack {
+  padding: 80px 0;
+  background-color: #d7d6d6;
+  text-align: center;
+}
+
+.tech-stack .heading {
+  font-size: 4.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.tech-stack .heading span {
+  color: #3498db;
+}
+
+.tech-stack-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tech-stack-box {
+  background: #848484;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.tech-stack-box i {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #3498db;
+}
+
+.tech-stack-box h3 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.tech-stack-box:hover {
+  transform: translateY(-10px);
+}
